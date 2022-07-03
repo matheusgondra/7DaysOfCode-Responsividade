@@ -1,5 +1,5 @@
 import React from "react";
-import Query from "./componensts/Querie";
+import Query from "./componensts/Query";
 import LucianaPhoto from "../../assets/images/perfil-2.jpg";
 import LarissaPhoto from "../../assets/images/perfil-3.jpg";
 import MarcosPhoto from "../../assets/images/perfil-4.jpg";
