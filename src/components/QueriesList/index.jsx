@@ -4,13 +4,14 @@ import LucianaPhoto from "../../assets/images/perfil-2.jpg";
 import LarissaPhoto from "../../assets/images/perfil-3.jpg";
 import MarcosPhoto from "../../assets/images/perfil-4.jpg";
 import ClaraPhoto from "../../assets/images/perfil-5.jpg";
+import "./style.css";
 
 
 function QueriesList() {
 	return (
-		<section>
+		<section className="queries-container">
 			<div>
-				<span>Hoje</span>
+				<span className="date">Hoje</span>
 				<Query
 					name="Luciana Dias"
 					time="14:00 - 15:00 (1 hora)"
@@ -31,7 +32,7 @@ function QueriesList() {
 				/>
 			</div>
 			<div>
-				<span>Amanhã</span>
+				<span className="date">Amanhã</span>
 				<Query
 					name="Clara Lemos"
 					time="18:00 - 19:00 (1 hora)"
@@ -58,7 +59,7 @@ function QueriesList() {
 				/>
 			</div>
 			<div>
-				<span>Quarta-feira</span>
+				<span className="date">Quarta-feira</span>
 				<Query
 					name="Clara Lemos"
 					time="18:00 - 19:00 (1 hora)"

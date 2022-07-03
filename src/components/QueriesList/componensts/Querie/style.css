@@ -1,7 +1,6 @@
 .card {
 	background-color: var(--color-white);
 	padding: 1rem;
-	font-family: "Montserrat", sans-serif;
 	margin: 1rem;
 	border-radius: 8px;
 }
