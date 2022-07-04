@@ -3,6 +3,7 @@ import calendarioIcon from "../../assets/images/calendario-icone.svg";
 import clientesIcon from "../../assets/images/clientes-icone.svg";
 import menuIcon from "../../assets/images/menu-icone.svg";
 import relatoriosIcon from "../../assets/images/relatorios-icone.svg";
+import FloatingButton from "./components/FloatingButton";
 import "./style.css";
 
 function Footer() {
@@ -36,6 +37,7 @@ function Footer() {
 					</li>
 				</ul>
 			</nav>
+			<FloatingButton />
 		</footer>
 	);
 }
