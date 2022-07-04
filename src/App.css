@@ -6,6 +6,11 @@
 	--color-white: #FFFFFF;
 	--color-orange: #FFB050;
 	--color-blue: #4894FF;
+
+	--font-xl: 1.375rem;
+	--font-lg: 1rem;
+	--font-md: .875rem;
+	--font-sm: .75rem;
 }
 
 #container {

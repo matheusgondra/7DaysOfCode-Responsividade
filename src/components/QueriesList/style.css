@@ -5,6 +5,6 @@
 .date {
 	margin: 0 1rem;
 	font-weight: 700;
-	font-size: 1rem;
+	font-size: var(--font-lg);
 	line-height: 1.625rem;
 }

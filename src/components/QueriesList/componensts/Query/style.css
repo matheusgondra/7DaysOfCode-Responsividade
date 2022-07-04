@@ -46,7 +46,7 @@ hr {
 .card-title {
 	color: var(--color-black);
 	font-weight: 700;
-	font-size: .875rem;
+	font-size: var(--font-md);
 	line-height: 1.375rem;
 }
 
@@ -58,7 +58,7 @@ hr {
 .card-query {
 	color: var(--color-gray);
 	margin-left: 8px;
-	font-size: .75rem;
+	font-size: var(--font-sm);
 }
 
 .card-chat-container {
@@ -76,7 +76,7 @@ hr {
 
 .card-time {
 	color: var(--color-black);
-	font-size: .75rem;
+	font-size: var(--font-sm);
 	font-weight: 500;
 	line-height: 1.1875rem;
 }
@@ -89,7 +89,7 @@ hr {
 	color: var(--color-white);
 	border-radius: 8px;
 	font-weight: 500;
-	font-size: .875rem;
+	font-size: var(--font-md);
 	border: none;
 	padding: .8125rem 1rem;
 	width: 8.6875rem;
