@@ -27,3 +27,21 @@
 		grid-template-columns: repeat(2, 50%);
 	}
 }
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+	.queries-container > div > div {
+		grid-template-columns: repeat(3, 33.33%);
+	}
+}
+
+@media screen and (min-width: 1345px) {
+	.queries-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.queries-container > div > div {
+		grid-template-columns: repeat(3, calc(1309px/3));
+	}
+}

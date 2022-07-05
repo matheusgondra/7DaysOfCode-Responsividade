@@ -14,7 +14,7 @@ Query.propTypes = {
 
 function Query({ name, time, type, photo }) {
 	return (
-		<div className="card card-container">
+		<div className="card">
 			{type === "remote" ? (
 				<>
 					<div className="card-flex">

@@ -3,10 +3,7 @@
 	padding: 1rem;
 	margin: 1rem;
 	border-radius: 8px;
-}
-
-.card-container {
-	padding: 1rem;
+	max-width: 420px;
 }
 
 .card-photo {
@@ -134,5 +131,10 @@ hr {
 @media screen and (min-width: 768px) {
 	.card-chat {
 		top: 8.33px;
+	}
+
+	.btn-audio, .btn-video {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
