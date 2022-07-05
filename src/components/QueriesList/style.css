@@ -14,3 +14,16 @@
 	font-size: var(--font-lg);
 	line-height: 1.625rem;
 }
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+	.queries-container > div {
+		padding: 0 1rem;
+		margin: 0 auto;
+	}
+
+	.queries-container > div > div {
+		display: grid;
+		grid-template-columns: repeat(2, 50%);
+	}
+}
