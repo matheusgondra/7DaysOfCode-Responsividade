@@ -17,3 +17,22 @@
 	background: linear-gradient(165.96deg, #F8F4FF 0%, #EFF0F4 100%);
 	font-family: "Montserrat", sans-serif;
 }
+
+@media screen and (min-width: 1024px) {
+	#container {
+		display: grid;
+		grid-template-areas: 
+		"aside cabecalho"
+		"aside main";
+	}
+
+	main {
+		grid-area: main;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	#container {
+		grid-template-columns: 200px auto;
+	}
+}

@@ -28,7 +28,7 @@
 	color: var(--color-gray);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {	
 	.user-photo {
 		width: 80px;
 	}

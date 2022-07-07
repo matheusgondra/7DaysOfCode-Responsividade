@@ -32,3 +32,9 @@
 	bottom: 8px;
 	left: 28.6%;
 }
+
+@media screen and (min-width: 1024px) {
+	.floating-button-container {
+		display: none;
+	}
+}

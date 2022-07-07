@@ -8,30 +8,30 @@ import "./style.css";
 
 function Footer() {
 	return (
-		<footer>
+		<footer className="footer">
 			<nav className="navbar">
 				<ul className="navbar-menu">
 					<li>
+						<img className="button-icon" src={calendarioIcon} alt="ícone de calendário" />
 						<button className="button on" type="button">
-							<img src={calendarioIcon} alt="ícone de calendário" />
 							Consultas
 						</button>
 					</li>
 					<li>
+						<img className="button-icon" src={clientesIcon} alt="ícone de pessoa" />
 						<button className="button off" type="button">
-							<img src={clientesIcon} alt="ícone de pessoa" />
 							Clientes
 						</button>
 					</li>
 					<li>
+						<img className="button-icon" src={relatoriosIcon} alt="ícone de gráfico de linhas" />
 						<button className="button off" type="button">
-							<img src={relatoriosIcon} alt="ícone de gráfico de linhas" />
 							Relátorios
 						</button>
 					</li>
 					<li>
+						<img className="button-icon" src={menuIcon} alt="ícone de menu hamburguer" />
 						<button className="button off" type="button">
-							<img src={menuIcon} alt="ícone de menu hamburguer" />
 							Menu
 						</button>
 					</li>
