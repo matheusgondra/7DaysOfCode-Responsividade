@@ -2,6 +2,12 @@
 
 Esse é o meu repositório com a conclusão do desafio [7 Days of Code](https://7daysofcode.io/) de responsividade da Alura.
 
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **7DayOfCode - Responsividade**
+| :label: Tecnologias | HTML, CSS, Javascript, ReactJS
+| :rocket: URL         | https://7-days-of-code-responsividade.vercel.app/
+
 ## Tecnologias utilizadas
 
 - HMTL
